@@ -32,9 +32,9 @@ while True:
         print("It's a tie!")
     elif (user_choice == "Rock" and computer_choice == "Scissors") or (user_choice == "Paper" and computer_choice == "Rock") or(user_choice == "Scissors" and computer_choice == "Paper"):
         print(user_choice + " beats " + computer_choice)
-        print("=" *15)
+        print("=" *13)
         print("You win!")
-        print("=" *15)
+        print("=" *13)
     else:
         print(computer_choice + " beats " + user_choice)
         print("=" *15)
